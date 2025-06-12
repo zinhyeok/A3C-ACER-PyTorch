@@ -9,9 +9,7 @@ import os
 import yaml
 import argparse
 import numpy as np
-
-# TODOs:
-# Add docker support
+import atari_py
 
 if __name__ == "__main__":
     with open("training_configs.yml") as f:
